@@ -1,0 +1,22 @@
+div {
+		width: 200px;
+		height: 200px;
+	}
+
+	.maDiv-1{
+		background: blue;
+	}
+
+	.maDiv-2{
+		background: red;
+	}
+
+	.maDiv-3 {
+		background: green;
+	}
+
+	body{
+		display: flex;
+		flex-direction: column;
+		flex-direction: column-reverse;
+	}

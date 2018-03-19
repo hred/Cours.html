@@ -1,0 +1,29 @@
+
+//homepage.scss
+
+//body{
+
+	//background: $primary_color;
+	//font-family: $font;
+//}
+
+#homepage {
+	background: $primary_color;
+	font-family: $font;
+
+ p {
+	color:red;
+   }
+
+   form {
+   		input {
+   			&:nth-child(2n){
+   				@include fotm-input(100px, green);
+   			}
+
+   			&[type="submit"]{
+   				@include form-submit();
+   			}
+   		}
+   }
+}
